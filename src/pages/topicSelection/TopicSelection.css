@@ -1,0 +1,22 @@
+.topic-selection {
+  background-color: #1e282a;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (width > 475px) {
+  .topic-selection {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (width > 768px) {
+  .topic-selection {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (width > 992px) {
+  .topic-selection {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

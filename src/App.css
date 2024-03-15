@@ -1,0 +1,25 @@
+#root {
+  text-align: center;
+}
+
+.office-img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.right-side {
+  min-height: 100vh;
+}
+
+@media (width > 768px) {
+  .right-side {
+    width: 50%;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+input {
+  color: white;
+}
